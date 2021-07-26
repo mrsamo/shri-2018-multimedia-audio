@@ -31,7 +31,7 @@ recognition.onresult = function(event) {
 			result.classList.add('result_yandex');
 			result.innerHTML = '';
 			break;
-		case 'кто досчитал до бесконечности':
+		case 'кто умеет считать до бесконечности':
 			result.classList.remove('result_google', 'result_yandex');
 			result.classList.add('result_chuck');
 			result.innerHTML = '';
